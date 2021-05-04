@@ -4,10 +4,30 @@
 
 # Usage:
 
-`gpg-encrypt FILE/DIRECTORY RECIPIENT`
+`tgpg-encrypt FILE/DIRECTORY RECIPIENT`
 
-Encrypts a given file or directory into a `.tar.gpg` file in the current directory.
+Tar and encrypts a given file or directory into a `.gpg` file in the current directory.
 
-`gpg-decrypt FILE.tar.gpg`
+`tgpg-decrypt FILE.gpg`
 
-Decrypts a given `.tar.gpg` file to the current directory.
+Decrypts and untar a given `.tar.gpg` file to the current directory.
+
+`gpg-encrypt FILE RECIPIENT`
+
+Encrypts a given file into a `.gpg` file in the current directory.
+
+`gpg-decrypt FILE.gpg`
+
+Decrypts a given `.gpg` file to the current directory.
+
+
+`gpgs-encrypt FILE RECIPIENT`
+
+Encrypts a given file into a `.gpg` file in the current directory.
+You will need to supply a passphrase to encrypt the file.
+
+`gpgs-decrypt FILE.gpg`
+
+Decrypts a given `.gpg` file to the current directory.
+You will need to supply a passphrase to decrypt the file.
+
