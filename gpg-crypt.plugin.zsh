@@ -78,7 +78,8 @@ function gpg-decrypt() {
     return 1
   fi
 
-  gpg --quiet --decrypt $1
+  out=${1}
+  gpg --quiet --decrypt --output `basename ${1:r}` $1
 }
 
 #################
