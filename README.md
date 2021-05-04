@@ -21,7 +21,7 @@ Encrypts a given file into a `.gpg` file in the current directory.
 Decrypts a given `.gpg` file to the current directory.
 
 
-`gpgs-encrypt FILE RECIPIENT`
+`gpgs-encrypt FILE`
 
 Encrypts a given file into a `.gpg` file in the current directory.
 You will need to supply a passphrase to encrypt the file.
